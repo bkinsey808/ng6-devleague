@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router'
 const routes: Routes = [
   {
     path: 'about-us',
+    // this syntax demonstrates lazy loading
     loadChildren: './about-us/about-us.module#AboutUsModule'
   }
 ]
